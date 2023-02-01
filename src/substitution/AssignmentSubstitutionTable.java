@@ -347,160 +347,160 @@ public class AssignmentSubstitutionTable {
             char c = normalText.charAt(i);
             switch(c){
                 case 'A'    :
-                    output += "M";
-                    break;
-                case 'a':
-                    output += "m";
-                    break;
-                case 'B':
-                    output += "P";
-                    break;
-                case 'b':
-                    output += "p";
-                    break;
-                case 'C':
-                    output += "K";
-                    break;
-                case 'c':
-                    output += "k";
-                    break;
-                case 'D':
-                    output += "N";
-                    break;
-                case 'd':
-                    output += "n";
-                    break;
-                case 'E':
-                    output += "W";
-                    break;
-                case 'e':
-                    output += "w";
-                    break;
-                case 'F':
-                    output += "J";
-                    break;
-                case 'f':
-                    output += "j";
-                    break;
-                case 'G':
-                    output += "T";
-                    break;
-                case 'g':
-                    output += "t";
-                    break;
-                case 'H':
-                    output += "O";
-                    break;
-                case 'h':
-                    output += "o";
-                    break;
-                case 'I':
-                    output += "U";
-                    break;
-                case 'i':
-                    output += "u";
-                    break;
-                case 'J':
-                    output += "F";
-                    break;
-                case 'j':
-                    output += "f";
-                    break;
-                case 'K':
-                    output += "C";
-                    break;
-                case 'k':
-                    output += "c";
-                    break;
-                case 'L':
-                    output += "V";
-                    break;
-                case 'l':
-                    output += "v";
-                    break;
-                case 'M':
-                    output += "A";
-                    break;
-                case 'm':
-                    output += "a";
-                    break;
-                case 'N':
-                    output += "D";
-                    break;
-                case 'n':
-                    output += "d";
-                    break;
-                case 'O':
-                    output += "H";
-                    break;
-                case 'o':
-                    output += "h";
-                    break;
-                case 'P':
-                    output += "B";
-                    break;
-                case 'p':
-                    output += "b";
-                    break;
-                case 'Q':
-                    output += "Y";
-                    break;
-                case 'q':
-                    output += "y";
-                    break;
-                case 'R':
-                    output += "X";
-                    break;
-                case 'r':
-                    output += "x";
-                    break;
-                case 'S':
-                    output += "Z";
-                    break;
-                case 's':
-                    output += "z";
-                    break;
-                case 'T':
-                    output += "G";
-                    break;
-                case 't':
-                    output += "g";
-                    break;
-                case 'U':
                     output += "I";
                     break;
-                case 'u':
+                case 'a':
                     output += "i";
                     break;
-                case 'V':
-                    output += "L";
-                    break;
-                case 'v':
-                    output += "l";
-                    break;
-                case 'W':
-                    output += "E";
-                    break;
-                case 'w':
-                    output += "e";
-                    break;
-                case 'X':
-                    output += "R";
-                    break;
-                case 'x':
-                    output += "r";
-                    break;
-                case 'Y':
+                case 'B':
                     output += "Q";
                     break;
-                case 'y':
+                case 'b':
                     output += "q";
                     break;
-                case 'Z':
+                case 'C':
+                    output += "T";
+                    break;
+                case 'c':
+                    output += "t";
+                    break;
+                case 'D':
+                    output += "H";
+                    break;
+                case 'd':
+                    output += "H";
+                    break;
+                case 'E':
+                    output += "P";
+                    break;
+                case 'e':
+                    output += "p";
+                    break;
+                case 'F':
+                    output += "W";
+                    break;
+                case 'f':
+                    output += "w";
+                    break;
+                case 'G':
+                    output += "N";
+                    break;
+                case 'g':
+                    output += "n";
+                    break;
+                case 'H':
+                    output += "D";
+                    break;
+                case 'h':
+                    output += "d";
+                    break;
+                case 'I':
+                    output += "A";
+                    break;
+                case 'i':
+                    output += "a";
+                    break;
+                case 'J':
+                    output += "R";
+                    break;
+                case 'j':
+                    output += "r";
+                    break;
+                case 'K':
+                    output += "V";
+                    break;
+                case 'k':
+                    output += "v";
+                    break;
+                case 'L':
+                    output += "Y";
+                    break;
+                case 'l':
+                    output += "y";
+                    break;
+                case 'M':
+                    output += "Q";
+                    break;
+                case 'm':
+                    output += "q";
+                    break;
+                case 'N':
+                    output += "G";
+                    break;
+                case 'n':
+                    output += "g";
+                    break;
+                case 'O':
+                    output += "B";
+                    break;
+                case 'o':
+                    output += "b";
+                    break;
+                case 'P':
+                    output += "E";
+                    break;
+                case 'p':
+                    output += "e";
+                    break;
+                case 'Q':
+                    output += "M";
+                    break;
+                case 'q':
+                    output += "m";
+                    break;
+                case 'R':
+                    output += "J";
+                    break;
+                case 'r':
+                    output += "j";
+                    break;
+                case 'S':
+                    output += "X";
+                    break;
+                case 's':
+                    output += "x";
+                    break;
+                case 'T':
+                    output += "C";
+                    break;
+                case 't':
+                    output += "c";
+                    break;
+                case 'U':
+                    output += "Z";
+                    break;
+                case 'u':
+                    output += "z";
+                    break;
+                case 'V':
+                    output += "K";
+                    break;
+                case 'v':
+                    output += "k";
+                    break;
+                case 'W':
+                    output += "F";
+                    break;
+                case 'w':
+                    output += "f";
+                    break;
+                case 'X':
                     output += "S";
                     break;
-                case 'z':
+                case 'x':
                     output += "s";
+                    break;
+                case 'Y':
+                    output += "L";
+                    break;
+                case 'y':
+                    output += "l";
+                    break;
+                case 'Z':
+                    output += "U";
+                    break;
+                case 'z':
+                    output += "u";
                     break;
                 default:
                     output += c;
