@@ -3,7 +3,43 @@ package substitution;
 // Author: Francis Rudra D Cruze
 // Email: rudra16-563@diu.edu.bd
 
+import java.util.Scanner;
+
 public class AssignmentSubstitutionTable {
+
+    public static void main(String args[]) {
+
+        // Variable to store data
+        String normalText, encrypt, deCrypt;
+        Scanner scanner = new Scanner(System.in);
+
+        // Creating the object of this class or
+        // Just declare the method to static
+        AssignmentSubstitutionTable ast = new AssignmentSubstitutionTable();
+
+        System.out.println("Basic Substitution Table Creation and Implementation\n");
+        System.out.print("Please enter the text you want to encrypt: ");
+
+        normalText = scanner.nextLine();
+
+        // Table 1
+        encrypt = ast.substitutionTable1(normalText);
+        deCrypt = ast.substitutionTable1(encrypt);
+        System.out.println("Encrypted text (Table-1): " + encrypt);
+        System.out.println("Decrypted text (Table-1): " + deCrypt + "\n");
+
+        // Table 2
+        encrypt = ast.substitutionTable2(normalText);
+        deCrypt = ast.substitutionTable2(encrypt);
+        System.out.println("Encrypted text (Table-2): " + encrypt);
+        System.out.println("Decrypted text (Table-2): " + deCrypt + "\n");
+
+        // Table 3
+        encrypt = ast.substitutionTable3(normalText);
+        deCrypt = ast.substitutionTable3(encrypt);
+        System.out.println("Encrypted text (Table-2): " + encrypt);
+        System.out.println("Decrypted text (Table-2): " + deCrypt);
+    }
 
     public String substitutionTable1(String normalText){
         String output = "";
@@ -368,7 +404,7 @@ public class AssignmentSubstitutionTable {
                     output += "H";
                     break;
                 case 'd':
-                    output += "H";
+                    output += "h";
                     break;
                 case 'E':
                     output += "P";
