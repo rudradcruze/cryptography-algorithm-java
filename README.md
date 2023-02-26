@@ -3,18 +3,18 @@ Some algorithm of network cryptography
 
 ## Substitution Tables
 ### Table 1
-|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z| 
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Y|O|N|Q|Z|H|V|F|J|I|X|P|R|C|B|L|D|M|U|W|S|G|T|K|A|E|
 
 ### Table 2
-|A  |C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z| 
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |M|P|K|N|W|J|T|O|U|F|C|V|A|D|H|B|Y|X|Z|G|I|L|E|R|Q|S|
 
 ### Table 3
-|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z| 
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-| 
 |I|Q|T|H|P|W|N|D|A|R|V|Y|Q|G|B|E|M|J|X|C|Z|K|F|S|L|U|
 
 ## Algorithms
