@@ -1,4 +1,4 @@
-package substitution;
+package bd.edu.diu.substitution;
 
 import java.util.Scanner;
 

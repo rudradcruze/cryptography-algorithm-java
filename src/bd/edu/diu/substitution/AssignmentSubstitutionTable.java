@@ -1,4 +1,4 @@
-package substitution;
+package bd.edu.diu.substitution;
 // This is a basic substitution table 1, 2, & 3 program
 // Author: Francis Rudra D Cruze
 // Email: rudra16-563@diu.edu.bd
