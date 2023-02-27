@@ -20,4 +20,4 @@ Some algorithm of network cryptography
 ## Algorithms
 * [Basic Substitution](src/bd/edu/diu/substitution/BasicSubstitutionTry.java)
 * [Simple Substitution](src/bd/edu/diu/substitution/SimpleSubstitution.java)
-* [Substuitution Table Solution [Tabe 1](#table-1), [Table 2](#table-2), [Table 3](#table-3) ](src/bd/edu/diu/substitution/AssignmentSubstitutionTable.java)
+* [Substuitution Table Solution (table-1, table-2 & table-3)](src/bd/edu/diu/substitution/AssignmentSubstitutionTable.java)
