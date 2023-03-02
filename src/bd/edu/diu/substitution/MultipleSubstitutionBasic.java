@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MultipleSubstitutionBasic {
 
     // encryption process round 1
-    public static String substitute(String normalText) {
+    public String substitute(String normalText) {
         String encryptedText = "";
         for (int i = 0; i < normalText.length(); i++) {
             encryptedText += (char) (normalText.charAt(i) + 5);
@@ -14,7 +14,7 @@ public class MultipleSubstitutionBasic {
     }
 
     //encryption process round 2
-    public static String substitute2(String normalText) {
+    public String substitute2(String normalText) {
         String encryptedText = "";
         for (int i = 0; i < normalText.length(); i++) {
             encryptedText += (char) (normalText.charAt(i) + 10);
@@ -23,7 +23,7 @@ public class MultipleSubstitutionBasic {
     }
 
     // decryption process round 1
-    public static String unsubstitute(String encryptedText) {
+    public String unsubstitute(String encryptedText) {
         String decryptedText = "";
         for (int i = 0; i < encryptedText.length(); i++) {
             decryptedText += (char) (encryptedText.charAt(i) - 5);
@@ -33,7 +33,7 @@ public class MultipleSubstitutionBasic {
     }
 
     // decryption process round 2
-    public static String unsubstitute2(String encryptedText) {
+    public String unsubstitute2(String encryptedText) {
         String decryptedText = "";
         for (int i = 0; i < encryptedText.length(); i++) {
             decryptedText += (char) (encryptedText.charAt(i) - 10);
@@ -66,8 +66,8 @@ public class MultipleSubstitutionBasic {
         String encrypted2 = multipleSubstitution.substitute2(encrypted);
 
         // Performing decryption
-        String decrypted = multipleSubstitution.unsubstitute(encrypted2);
-        String decrypted2 = multipleSubstitution.unsubstitute(encrypted);
+        String decrypted = multipleSubstitution.unsubstitute2(encrypted2);
+        String decrypted2 = multipleSubstitution.unsubstitute(decrypted);
 
         multipleSubstitution.show(userText, encrypted, encrypted2, decrypted, decrypted2);
     }

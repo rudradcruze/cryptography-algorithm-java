@@ -37,8 +37,8 @@ public class AssignmentSubstitutionTable {
         // Table 3
         encrypt = ast.substitutionTable3(normalText);
         deCrypt = ast.substitutionTable3(encrypt);
-        System.out.println("Encrypted text (Table-2): " + encrypt);
-        System.out.println("Decrypted text (Table-2): " + deCrypt);
+        System.out.println("Encrypted text (Table-3): " + encrypt);
+        System.out.println("Decrypted text (Table-3): " + deCrypt);
     }
 
     public String substitutionTable1(String normalText){
@@ -389,10 +389,10 @@ public class AssignmentSubstitutionTable {
                     output += "i";
                     break;
                 case 'B':
-                    output += "Q";
+                    output += "O";
                     break;
                 case 'b':
-                    output += "q";
+                    output += "o";
                     break;
                 case 'C':
                     output += "T";
