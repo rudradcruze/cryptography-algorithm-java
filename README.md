@@ -17,6 +17,10 @@ Some algorithm of network cryptography
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | I | O | T | H | P | W | N | D | A | R | V | Y | Q | G | B | E | M | J | X | C | Z | K | F | S | L | U |
 
+## Assignment
+* [Substitution 2 Times (table-1 & (table-2)](src/bd/edu/diu/assignment/SubstitutionCipher.java)
+* [Transposition 2 Times)](src/bd/edu/diu/assignment/TranspositionCipher.java)
+
 ## Algorithms
 * [Basic Substitution](src/bd/edu/diu/substitution/BasicSubstitutionTry.java)
 * [Simple Substitution](src/bd/edu/diu/substitution/SimpleSubstitution.java)
